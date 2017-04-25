@@ -1,0 +1,6 @@
+# Music semantic frame definition
+
+FRAME: Music 
+NETS:
+ [music]
+;

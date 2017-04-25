@@ -1,0 +1,25 @@
+# Music semantic grammar definition
+
+[song]
+(brown sugar)
+(help)
+(stairway to heaven)
+;
+
+
+[artist]
+(led zeppelin)
+(the beatles)
+(the rolling stones)
+(the police)
+;
+
+
+[music]
+  ([song])
+  ([artist])
+  ([song] [artist])
+  ([song] by [artist])
+  ([artist] [song]) 
+;
+
